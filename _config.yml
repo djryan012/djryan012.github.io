@@ -1,2 +1,3 @@
-	name: David R, DJRConcepts.net
-	markdown: kramdown
+name: David R, DJRConcepts.net
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
