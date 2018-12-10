@@ -1,6 +1,4 @@
 name: David R, DJRConcepts.net
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
-
-theme: jekyll-theme-slate
+remote_theme: mmistakes/jekyll-theme-basically-basic
