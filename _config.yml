@@ -1,4 +1,8 @@
-name: David R, DJRConcepts.net
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+title: DJR Concepts.net
+author: David R
+desciprtion: 
+github username: djryan012
+
+# Build Settings
+# permalink: /blog/:year/:month/:day/:title
 remote_theme: mmistakes/jekyll-theme-basically-basic
