@@ -1,0 +1,66 @@
+#wrapper {
+  border: 1px solid #000000;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cameras {
+  /*background-color: #B61D1D;*/
+  display: inline-block;
+  width: 100%;
+}
+.cam {
+  /*background-color: #1D2BB5;*/
+  float: left;
+  width: 75%;
+  min-width: 50px;
+}
+.list {
+  /*background-color: #1D96B5;*/
+  width: 25%;
+  float: left;
+  height: 448px;
+}
+.dist9 {
+  /*background-color: #981DB5;*/
+  /*width: 100%;*/
+  margin: 10px;
+}
+.skipatrol {
+  /*background-color: #B5A71D;*/
+  margin: 10px;
+}
+.cam div {
+  position: relative;
+}
+.cam li {
+  display: inline-table;
+  margin-left: -3px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+.cam ul {
+  display: inline-block;
+  margin-left: -30px;
+  margin-bottom: 0;
+}
+.cam iframe {
+  height: 240px;
+  width: 400px;
+}
+h1 {
+  font-size: 1.4em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.cam h1 {
+  margin-top: -9px;
+  margin-bottom: -18px;
+  padding-left: 5px;
+}
+.list h1 {
+  /*margin-top: -9px;*/
+  margin-bottom: -18px;
+  /*padding-left: 5px;*/
+  margin-top: 9px;
+}
