@@ -1,60 +1,60 @@
 <!doctype html>
 <html lang="en">
-
-  <head>
-    <title>Mammoth Webcams Combined</title>
-    <link rel="stylesheet" href="mammoth.css">
+<head>
+  <title>Mammoth Webcams Combined</title>
+  <link rel="stylesheet" href="mammoth.css">
 </head>
-
 <body>
   <div id="wrapper">
     <div class="cam">
-      <li>
-        <ul>
+    <div class="cam">
+      <ul>
+        <!-- Each camera and widget is its own List Item (li) -->
+        <li>
           <h1>Summit</h1>
-          <iframe  align="middle" marginheight="0" marginwidth="0" frameborder='0' scrolling='no' 
-            src="https://www.youtube-nocookie.com/embed/awxz_oIlJE0?autoplay=1&amp;mute=1&amp;playsinline=1&amp;loop=1&amp;playlist=awxz_oIlJE0"
-            frameBorder="0" allow="autoplay; mute; loop; fullscreen" tabindex="-1"></iframe>
-        </ul>
-        <ul>
+          <iframe src="www.youtube-nocookie.com" frameborder="0" allow="autoplay; mute; loop; fullscreen"></iframe>
+        </li>
+    
+        <li>
           <h1>McCoy</h1>
-          <iframe  align="middle" marginheight="0" marginwidth="0" frameborder='0' scrolling='no' 
-            src="https://www.youtube-nocookie.com/embed/lpGHpWtXGsk?autoplay=1&mute=1&playsinline=1&loop=1&playlist=lpGHpWtXGsk"
-            frameBorder="0" allow="autoplay; mute; loop; fullscreen" tabindex="-1"></iframe>
-        </ul>
-        <ul>
+          <iframe src="www.youtube-nocookie.com" frameborder="0" allow="autoplay; mute; loop; fullscreen"></iframe>
+        </li>
+    
+        <li>
           <h1>Unbound Main</h1>
-          <iframe  align="middle" marginheight="0" marginwidth="0" frameborder='0' scrolling='no' 
-            src="https://www.youtube.com/embed/aMBfWuXeVZ4?autoplay=1&mute=1&playsinline=1"
-            frameBorder="0" allow="autoplay; mute; loop; fullscreen" tabindex="-1"></iframe>
-          <!-- src="https://www.youtube-nocookie.com/embed/lxFbWFBQNwo?autoplay=1&mute=1&playsinline=1&loop=1&playlist=lxFbWFBQNwo" -->
-        </ul>
-        <ul>
+          <iframe src="www.youtube.com" frameborder="0" allow="autoplay; mute; loop; fullscreen"></iframe>
+        </li>
+    
+        <li>
           <h1>Main Lodge</h1>
-          <iframe  align="middle" marginheight="0" marginwidth="0" frameborder='0' scrolling='no' 
-            src="https://www.youtube-nocookie.com/embed/UpfvBbw6kSY?autoplay=1&mute=1&playsinline=1&loop=1&playlist=UpfvBbw6kSY"
-            frameBorder="0" allow="autoplay; mute; loop; fullscreen" tabindex="-1"></iframe>
-        </ul>
-        <ul>
+          <iframe src="www.youtube-nocookie.com" frameborder="0" allow="autoplay; mute; loop; fullscreen"></iframe>
+        </li>
+    
+        <li>
           <h1>Canyon Lodge</h1>
-          <iframe  align="middle" marginheight="0" marginwidth="0" frameborder='0' scrolling='no' 
-            src="https://www.youtube-nocookie.com/embed/9--ZgYEZBhk?autoplay=1&mute=1&playsinline=1&loop=1&playlist=9--ZgYEZBhk"
-            frameBorder="0" allow="autoplay; mute; loop; fullscreen" tabindex="-1"></iframe>
-        </ul>
-        <ul>
+          <iframe src="www.youtube-nocookie.com" frameborder="0" allow="autoplay; mute; loop; fullscreen"></iframe>
+        </li>
+    
+        <li>
           <h1>The Village</h1>
-          <iframe  align="middle" marginheight="0" marginwidth="0" frameborder='0' scrolling='no' 
-            src="https://www.youtube-nocookie.com/embed/MwHWDokyUhw?autoplay=1&mute=1&playsinline=1&loop=1&playlist=MwHWDokyUhw"
-            frameBorder="0" allow="autoplay; mute; loop; fullscreen" tabindex="-1"></iframe>
-        </ul>
-        <ul>
+          <iframe src="www.youtube-nocookie.com" frameborder="0" allow="autoplay; mute; loop; fullscreen"></iframe>
+        </li>
+    
+        <li>
           <h1>Weather</h1>
-          <a class="weatherwidget-io" href="https://forecast7.com/en/41d73n121d35/mammoth/?unit=us" data-label_1="MAMMOTH" data-label_2="Forcast" data-mode="Forecast" data-theme="weather_one" >MAMMOTH Forcast</a>
-          <script>
-          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-          </script>
-        </ul>
-      </li>
+          <!-- Container forces 500px width for the widget -->
+          <div style="width: 500px; max-width: 100%;">
+            <a class="weatherwidget-io" 
+               href="forecast7.com" 
+               data-label_1="MAMMOTH" 
+               data-label_2="Forecast" 
+               data-mode="Forecast" 
+               data-theme="weather_one">
+               MAMMOTH Forecast
+            </a>
+          </div>
+        </li>
+      </ul>
     </div>
     <div class="dist9">
         <!-- Begin Main Content -->
@@ -97,6 +97,11 @@
       </h1>
     </div>
   </div>
+  <!-- Place the weather script only once at the very end -->
+  <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+  </script>
+
 </body>
 
 </html>
