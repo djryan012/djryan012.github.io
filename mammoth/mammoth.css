@@ -27,12 +27,20 @@ h1
     margin-left: -3px;
     padding-bottom: 5px;
     }
-.cam ul
+.cam ul {
+    list-style-type: none; /* Removes bullets */
+    padding: 0;           /* Removes default indentation */
+    margin: 0;
+    display: grid;        /* Keeps the grid behavior */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Example grid */
+    gap: 20px;            /* Adds spacing between items */
+    }
+/* .cam ul
     {
     display: inline-block;
     margin-left: -30px;
     margin-bottom: 0;
-    }
+    } */
 .cam iframe
     {
     height: 240px;
@@ -52,3 +60,4 @@ h1
 .ski tr
     {
     }
+
